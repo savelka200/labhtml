@@ -29,6 +29,11 @@ header{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    transition: width .1s linear, height .1s linear;  
+}
+.glavph:hover{
+    width: 110px;
+    height: 110px;
 }
 .glavph1{
     box-shadow: 0 3px 10px #000000a8;
@@ -48,7 +53,7 @@ section{
     display: inline-block;
     border-radius: 10px;
 }
-h3{
+h3, h4{
     text-align: center;
     color: #333;
 }
@@ -92,10 +97,12 @@ aside{
     width: 100vh;
 }
 table{
+    border: 1px solid grey;
     border-collapse: collapse;
+    text-align: center;
 }
 th,td{
-    
+    border: 1px solid grey;
     padding: 5px;
 }
 .tdiv{
@@ -166,3 +173,20 @@ th,td{
     border-radius: 30px;
     background-color:#ffd343;
 }
+.map{
+    outline: 3px solid #333;
+    display: inline-block;
+    margin: 5px;
+}
+.forms1{
+    vertical-align: top;
+    margin: 10px;
+    outline: 3px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#ffd343;
+}
+.au1{
+    display: block;
+}
+

@@ -3,10 +3,10 @@
     <head>
         <meta name="author" content="Savely Morozov">
         <meta name="description" content="Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.">
-        <meta name="keywords" content="Бар, таверна">
+        <meta name="keywords" content="Контакты, таверна">
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
-        <title>Заведения</title>
+        <title>Карта сайта</title>
     </head>
      <body>
          <header>
@@ -22,42 +22,30 @@
                         <a class="nav-link" href="map.html">Карта сайта</a>
                     </nav>
         <div class="photos">
-             <a href="zav.html"><img class="glavph" src="img/bar1.jpg" alt="Бар"></a>
+            <a href="zav.html"><img class="glavph" src="img/bar1.jpg" alt="Бар"></a>
             <a href="zav.html"><img class="glavph" src="img/bar2.jpg" alt="Бар"></a>
             <a href="zav.html"><img class="glavph" src="img/bar3.jpg" alt="Бар"></a>
         </div>
-         <div class="zav">
-             <h2>Наши заведения</h2>
-         <div class="zav1">
-             <h3>Бар 1</h3>
-             <img class="glavph1" src="img/bar1.jpg" alt="Бар">
-            <ul>
-            <li>Пушкинская 7</li>
-            <li>12:00-24:00</li>
-            </ul>
+        <div class="map">
+            <img src="img/map.png" alt="Карта сайта" usemap="#map">
+            <map name="map">
+                <area shape="rect" alt="Наша команда" coords="220,20,325,125" 
+                href="slv.html">
+                <area shape="rect" alt="На главную" coords="219,183,325,287" 
+                href="index.html">
+                <area shape="circle" alt="Наши заведения" coords="80,235,58" 
+                href="zav.html">
+                <area shape="circle" alt="Контакты" coords="278,412,58" 
+                href="cont.html">
+                <area shape="poly" alt="Услуги" coords="410,228,458,220,466,172,490,214,538,209,506,244,526,287,482,267,447,299,452,252" 
+                href="price.html">
+                </map>
          </div>
-         <div class="zav1">
-             <h3>Бар 2</h3>
-             <img class="glavph1" src="img/bar2.jpg" alt="Бар">
-             <ul>
-            <li>Лермонтова 35</li>
-            <li>12:00-24:00</li>
-            </ul>
-             </div>
-         <div class="zav1">
-             <h3>Бар 3</h3>
-             <img class="glavph1" src="img/bar3.jpg" alt="Бар">
-             <ul>
-            <li>Свободы 48</li>
-            <li>12:00-24:00</li>
-            </ul>
-             </div>
-         </div>
-         <footer>
+          <footer>
             <p class="foot">(c) Савелий морозов</p> 
             <a class="foot" href="mailto:info@mail.ru">info@mail.ru</a>
             <a class="foot" href="tel:89001005060">89001005060</a>
-             <a href="#" class="btn">Наверх</a>
+              <a href="#" class="btn">Наверх</a>
         </footer>
     </body>
 </html>
